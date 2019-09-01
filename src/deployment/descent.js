@@ -52,7 +52,8 @@ class LinearRegression {
 
     }
 
-    LinearCoefficient(X_mean,y_mean,n,i,num,den)
+
+    function LinearCoefficient(X_mean,y_mean,n,i,num,den)
     {
     	
     	X_mean = this.X_mean;
@@ -82,7 +83,7 @@ class LinearRegression {
 
 
     
-    test_function() {
+   function test_function() {
         alert(this.x__xb);
         alert(this.x__xb_sqr_sum);
         alert(this.x__xbmy__yb);
